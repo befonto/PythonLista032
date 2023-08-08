@@ -5,7 +5,7 @@ valor com o acréscimo dos 10% da gorjeta do garçom.
 
 a = float(input("Insira aqui o valor da conta a ser pago: "))
 
-gorjeta = 1.0
+gorjeta = 0.10
 
 fim = a + (a * gorjeta)
 
