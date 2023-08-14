@@ -5,13 +5,16 @@ Fórmula: IMC = peso / altura2
  - Obs: peso em quilos e altura em metros.
 '''
 
-import math
+# import math < isso precisa aparecer ao digitar o "math.pow()"
 
-a = int(input("Insira aqui seu peso: "))
+a = float(input("Insira aqui seu peso: "))
 b = float(input("Insira aqui sua altura: "))
-c = a / math.pow(b,2)
 
-print("Seu IMC é de", c,)
+imc = a / (b * b)
+# outro modo > imc = peso / math.pow(a, 2)
+
+
+print(f"Seu IMC é de {imc:.0f}") # para controlar o número de dígitos depois da vírgula, nesse caso número redondo
 
 
 
